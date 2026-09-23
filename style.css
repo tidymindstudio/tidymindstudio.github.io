@@ -189,6 +189,22 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--s-7) 0; }
   margin-top: var(--s-7);
 }
 
+.pin-figure { max-width: 20rem; margin: var(--s-6) auto; }
+.pin-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+
+.keep-reading {
+  border-top: 1px solid var(--line);
+  margin-top: var(--s-7);
+  padding-top: var(--s-5);
+}
+.keep-reading h2 { font-size: var(--step-1); margin: 0 0 var(--s-3); }
+
 main { padding-bottom: var(--s-8); }
 article > h2:first-of-type { margin-top: var(--s-6); }
 
